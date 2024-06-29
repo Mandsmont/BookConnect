@@ -8,6 +8,7 @@ import Profile from '../screens/Profile';
 import Carrinho from '../screens/Carrinho';
 import Pesquisa from '../screens/Pesquisa';
 import Comunidade from '../screens/Comunidade';
+import PaginaHp from '../screens/PaginaHp/Index';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -37,6 +38,13 @@ export const StackNavigate = () => {
                     headerShown: false
                 }}
             />
+             <Stack.Screen 
+             name="PaginaHp" 
+             component={PaginaHp} 
+             options={{
+             headerShown: false
+                }}
+                />
         </Stack.Navigator>
     );
 };
@@ -120,5 +128,7 @@ export const TabNavigate = () => {
                 })}
             />
         </Tab.Navigator>
+
+
     );
 };

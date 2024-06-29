@@ -1,8 +1,14 @@
 import React from "react";
-import { Text, ScrollView, View, StyleSheet, Image } from "react-native";
+import { Text, ScrollView, View, StyleSheet, Image, TouchableOpacity } from "react-native";
 import Icon from 'react-native-vector-icons/FontAwesome';
+import { useNavigation } from '@react-navigation/native';
+import PaginaHp from "../PaginaHp/Index";
+
 
 export default function Home() {
+  
+  const navigation = useNavigation();
+
   return (
     <View style={styles.container}>
       <Text style={styles.welcomeText}>Bem-Vindo ao BOOKCONNECT</Text>
@@ -20,20 +26,25 @@ export default function Home() {
                 showsHorizontalScrollIndicator={true}
                 contentContainerStyle={styles.scrollViewContent}
                 >
+                <TouchableOpacity 
+                  onPress={() => navigation.navigate('PaginaHp')} >
+                  
+                  
                 <View style={styles.categoryContainer}>
-                    <View style={styles.imageContainer}>
-                      <Image source={require('../../../assets/hp.svg')}
-                        style={styles.image}
+                  <View style={styles.imageContainer}>
+                    <Image source={require('../../../assets/hp.svg')} style={styles.image} 
                       />
+                  </View>
+                  <View style={styles.textContainer}>
+                    <Text style={styles.textPrice}>De R$ 49,90</Text>
+                    <Text style={styles.textNewPrice}>POR R$ 29,90</Text>
+                    <View style={styles.iconContainer}>
+                      <Icon name="heart" size={10} color="white" borderColor='black' />
                     </View>
-                    <View style={styles.textContainer}>
-                      <Text style={styles.textPrice}>De R$ 49,90</Text>
-                      <Text style={styles.textNewPrice}>POR R$ 29,90</Text>
-                      <View style={styles.iconContainer}>
-                      <Icon name="heart" size={10} color='white' borderColor='red' />
-                    </View>
-                    </View>
+                  </View>
                 </View>
+              </TouchableOpacity>
+                
 
                 <View style={styles.categoryContainer}>
                     <View style={styles.imageContainer}>
