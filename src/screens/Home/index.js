@@ -5,7 +5,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 export default function Home() {
   return (
     <View style={styles.container}>
-      <Text style={styles.welcomeText}>Bem-Vindo a BOOKCONNECT</Text>
+      <Text style={styles.welcomeText}>Bem-Vindo ao BOOKCONNECT</Text>
 
       <ScrollView
         scrollEventThrottle={16}
@@ -151,7 +151,7 @@ export default function Home() {
                     </View>
                 </View>
 
-                {/* Adicione mais imagens conforme necessário */}
+                
             </ScrollView>
 
           </View>
@@ -222,7 +222,7 @@ export default function Home() {
                     </View>
                 </View>
 
-                {/* Adicione mais imagens conforme necessário */}
+                
             </ScrollView>
 
           </View>
