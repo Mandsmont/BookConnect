@@ -39,7 +39,7 @@ export default function Home() {
                     <Text style={styles.textPrice}>De R$ 49,90</Text>
                     <Text style={styles.textNewPrice}>POR R$ 29,90</Text>
                     <View style={styles.iconContainer}>
-                      <Icon name="heart" size={10} color="white" borderColor='black' />
+                      <Icon name="heart" size={10} color="red"  />
                     </View>
                   </View>
                 </View>
