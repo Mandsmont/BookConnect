@@ -3,6 +3,7 @@ import { Text, ScrollView, View, StyleSheet, Image, TouchableOpacity } from "rea
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { useNavigation } from '@react-navigation/native';
 import PaginaHp from "../PaginaHp/Index";
+import ComprarButton from "../../components/ComprarButton";
 
 
 export default function Home() {
@@ -72,6 +73,7 @@ export default function Home() {
                       <Text style={styles.textNewPrice}>POR R$ 29,90</Text>
                       <View style={styles.iconContainer}>
                       <Icon name="heart" size={10} color='white' borderColor='red' />
+                      
                     </View>
                     </View>
                 </View>
@@ -304,7 +306,6 @@ export default function Home() {
                     </View>
                 </View>
 
-                {/* Adicione mais imagens conforme necessário */}
             </ScrollView>
 
           </View>
@@ -414,8 +415,8 @@ const styles = StyleSheet.create({
     borderWidth: 0.5,
     borderColor: 'orange',
     backgroundColor: '#FFA553',
-    justifyContent: 'center', // Centers content vertically
-    alignItems: 'center', // Centers content horizontally
+    justifyContent: 'center', 
+    alignItems: 'center', 
   },
   imageContainer: {
     flex: 3.5,
@@ -423,8 +424,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   image: {
-    width: 100, // Adjust as needed
-    height: 100, // Adjust as needed
+    width: 100, 
+    height: 100, 
     resizeMode: 'contain',
   },
   textContainer: {

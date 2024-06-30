@@ -42,7 +42,8 @@ export const StackNavigate = () => {
              name="PaginaHp" 
              component={PaginaHp} 
              options={{
-             headerShown: false
+             headerShown: true,
+            headerTitle: ''
                 }}
                 />
         </Stack.Navigator>
