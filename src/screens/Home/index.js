@@ -4,6 +4,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import { useNavigation } from '@react-navigation/native';
 import PaginaHp from "../PaginaHp/Index";
 import ComprarButton from "../../components/ComprarButton";
+import ComprarButton2 from  "../../components/ComprarButton2";
 
 
 export default function Home() {
@@ -31,14 +32,18 @@ export default function Home() {
                   onPress={() => navigation.navigate('PaginaHp')} >
                   
                   
-                <View style={styles.categoryContainer}>
-                  <View style={styles.imageContainer}>
+                <View style={styles.categoryContainer2}>
+                  <View style={styles.imageContainer2}>
                     <Image source={require('../../../assets/hp.svg')} style={styles.image} 
                       />
                   </View>
-                  <View style={styles.textContainer}>
+                  <View style={styles.textContainer2}>
                     <Text style={styles.textPrice}>De R$ 49,90</Text>
                     <Text style={styles.textNewPrice}>POR R$ 29,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                     <View style={styles.iconContainer}>
                       <Icon name="heart" size={10} color="red"  />
                     </View>
@@ -54,8 +59,12 @@ export default function Home() {
                       />
                     </View>
                     <View style={styles.textContainer}>
-                      <Text style={styles.textPrice}>De R$ 49,90</Text>
+                      <Text style={styles.textPrice} >De R$ 49,90</Text>
                       <Text style={styles.textNewPrice}>POR R$ 29,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainer}>
                       <Icon name="heart" size={10} color='white' borderColor='red' />
                     </View>
@@ -71,6 +80,10 @@ export default function Home() {
                     <View style={styles.textContainer}>
                       <Text style={styles.textPrice}>De R$ 49,90</Text>
                       <Text style={styles.textNewPrice}>POR R$ 29,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainer}>
                       <Icon name="heart" size={10} color='white' borderColor='red' />
                       
@@ -87,6 +100,10 @@ export default function Home() {
                     <View style={styles.textContainer}>
                       <Text style={styles.textPrice}>De R$ 49,90</Text>
                       <Text style={styles.textNewPrice}>POR R$ 29,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainer}>
                       <Icon name="heart" size={10} color='white' borderColor='red' />
                     </View>
@@ -116,6 +133,10 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='red'  />
                     </View>
@@ -130,6 +151,10 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='red'  />
                     </View>
@@ -144,6 +169,10 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='red'  />
                     </View>
@@ -158,6 +187,10 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='red'  />
                     </View>
@@ -187,6 +220,10 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='white'  />
                     </View>
@@ -201,6 +238,10 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='white'  />
                     </View>
@@ -215,6 +256,10 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='white'  />
                     </View>
@@ -229,6 +274,10 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='white'  />
                     </View>
@@ -258,6 +307,10 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='red'  />
                     </View>
@@ -272,6 +325,10 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='red'  />
                     </View>
@@ -286,6 +343,10 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='red'  />
                     </View>
@@ -300,6 +361,10 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='red'  />
                     </View>
@@ -328,6 +393,10 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='red'  />
                     </View>
@@ -342,6 +411,10 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='red'  />
                     </View>
@@ -355,7 +428,11 @@ export default function Home() {
                       />
                     </View>
                     <View style={styles.textContainer}>
-                      <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <Text alignItems='center'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='red'  />
                     </View>
@@ -370,13 +447,15 @@ export default function Home() {
                     </View>
                     <View style={styles.textContainer}>
                       <Text fontSize={15} color= 'black'>R$ 49,90</Text>
+                      <ComprarButton2
+                       value="Comprar">
+                       
+                      </ComprarButton2>
                       <View style={styles.iconContainerFav}>
                       <Icon name="heart" size={10} color='red'  />
                     </View>
                     </View>
                 </View>
-
-                {/* Adicione mais imagens conforme necessário */}
             </ScrollView>
 
           </View>
@@ -409,6 +488,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   categoryContainer: {
+    flex: 0.6, 
     height: 130,
     width: 130,
     marginLeft: 20,
@@ -417,49 +497,86 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFA553',
     justifyContent: 'center', 
     alignItems: 'center', 
+    paddingHorizontal: 5
   },
   imageContainer: {
-    flex: 3.5,
+    flex: 5,
     justifyContent: 'center',
     alignItems: 'center',
+    marginTop: -10,
+    marginVertical: 0
   },
   image: {
-    width: 100, 
-    height: 100, 
+    width: 80, 
+    height: 80, 
     resizeMode: 'contain',
   },
   textContainer: {
-    flex: 1.3,
-    paddingLeft: 10,
-    paddingTop: 10,
+    flex: 2,
+    paddingLeft: 0,
+    paddingTop: 0,
     textAlign: 'center',
+    alignItems: 'center',
+    marginTop: -15
   },
   textPrice: {
     color: '#918A8A',
-    fontSize: 10,
+    fontSize: 8,
     textAlign: 'center',
+    marginTop: 0
   },
   textNewPrice: {
     color: "#FF0D0D",
-    textAlign: 'center'
+    textAlign: 'center',
+    fontSize: 10
   },
   iconContainer: {
     position: 'absolute',
     top: -80,
-    left: 90,
+    left: 100,
     
   },
   iconContainerFav: {
     position: 'absolute',
     top: -80,
-    left: 80,
+    left: 100,
   },
   FavText: {
     fontSize: 20,
     fontWeight: '700',
     paddingLeft:10,
     paddingTop: 10,
+  },
+  categoryContainer2: {
+    flex: 1, 
+    height: 200,
+    width: 130,
+    marginLeft: 20,
+    borderWidth: 0.5,
+    borderColor: 'orange',
+    backgroundColor: '#FFA553',
+    justifyContent: 'center', 
+    alignItems: 'center', 
+    paddingVertical: 10
+  },
+  imageContainer2: {
+    flex: 5,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 5,
+    marginVertical: 20
+  },
+
+  textContainer2: {
+    flex: 0.6,
+    paddingLeft: 0,
+    paddingTop: 0,
+    textAlign: 'center',
+    alignItems: 'center',
+    marginTop: -19,
+    
   }
+
 });
 
 
